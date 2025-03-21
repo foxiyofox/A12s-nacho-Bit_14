@@ -17,4 +17,6 @@ export ARCH=arm64
 export DTB_LOC=$(pwd)/out/arch/arm64/boot/dts
 export TOOLS_LOC=$(pwd)/scripts/tools/bin
 $TOOLS_LOC/mkdtboimg.py cfg_create $DTB_LOC/dtb.img --dtb-dir $DTB_LOC/exynos $TOOLS_LOC/dtb.cfg
+$TOOLS_LOC/mkdtboimg.py cfg_create $DTB_LOC/dtbo.img --dtb-dir $DTB_LOC/samsung/a12s $TOOLS_LOC/dtbo.cfg
+
 
