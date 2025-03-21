@@ -5,7 +5,7 @@
  */
 
 /*
- * #!-checking implemented by tytso.
+ * #!-checking implemented by tytso. 
  */
 /*
  * Demand-loading implemented 01.12.91 - no need to read anything but
